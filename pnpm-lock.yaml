@@ -1,0 +1,16 @@
+lockfileVersion: '6.1'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+devDependencies:
+  '@iiamkane/prettier-config':
+    specifier: ^1.2.0
+    version: 1.2.0
+
+packages:
+
+  /@iiamkane/prettier-config@1.2.0:
+    resolution: {integrity: sha512-ZBNFZUIUwassA6IBZv8wPtGIvjMasWhIpCD3ffC+aBK1kztYGeLAQJblGc6nZnVq5hN7AAuLfyBGvRUpaLqJpA==}
+    dev: true
