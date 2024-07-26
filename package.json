@@ -1,15 +1,22 @@
 {
     "name": "rollup-plugin-dynamic-generation-file",
     "version": "1.0.0",
-    "description": "",
     "main": "index.js",
     "scripts": {
+        "build": "rollup -c",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
+    "author": "iiamkane",
+    "license": "MIT",
     "devDependencies": {
-        "@iiamkane/prettier-config": "^1.2.0"
+        "@iiamkane/prettier-config": "^1.2.0",
+        "@rollup/plugin-commonjs": "^26.0.1",
+        "@rollup/plugin-json": "^6.1.0",
+        "@rollup/plugin-node-resolve": "^15.2.3",
+        "@rollup/plugin-typescript": "^11.1.6",
+        "@types/node": "^20.14.12",
+        "chokidar": "^3.6.0",
+        "rollup": "^4.19.0",
+        "tslib": "^2.6.3"
     }
 }
