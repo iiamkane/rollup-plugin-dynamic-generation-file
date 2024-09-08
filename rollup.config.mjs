@@ -18,5 +18,6 @@ export default {
         },
     ],
     plugins: [resolve(), commonjs(), typescript(), json()],
+    
     external: ['fsevents'],
 };
